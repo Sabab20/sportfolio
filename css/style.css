@@ -1,0 +1,212 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Fjalla One', sans-serif;
+
+
+
+}
+
+header{
+	background-color:#00ffa7a6;
+	padding: 20px 0;
+
+}
+p{
+	font-size: 18px;
+}
+
+img{
+
+width: 100%;
+height:100%;
+}
+
+li{
+	list-style: none;
+}
+
+a{  
+	text-decoration: none;
+	color: #333;
+}
+
+.container{
+	width:  calc(100% - 200px) ;
+	margin: auto;
+	padding: 20px;
+	text-align: center;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.logo{ 
+	width: 15%; 
+	
+    flex: 0 0 auto;
+   }
+
+
+
+.flex{
+    display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+nav
+{
+	width: 85%;
+    flex: 0 0 auto;
+}
+
+nav ul{
+
+    justify-content:flex-end; 
+}
+
+nav ul li a{
+    color: #333;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration:none;
+    padding: 15px 40px; 
+    display:block;
+}
+nav ul li a:hover{
+ color:white;
+ background-color: #5816cc;
+}
+
+
+.col
+{   
+	width: 33%;
+	
+	padding:30px;
+}
+
+.col img{
+	box-shadow: -30px 30px 20px #0e0e0e6e;
+	transition-delay: 5s;
+
+
+}
+
+.col:hover{
+	
+	transform:scale(1.1);
+}
+
+
+
+
+
+ 
+
+
+ .col-2-1
+{
+  width: 50%;
+  flex:0 0 auto;
+  padding: 50px;
+}
+
+.paddingleft{
+ padding-left: 115px;
+}
+
+.paddingright{
+
+  padding-right:115px;
+}
+
+section
+{   margin: auto;
+	transition: slidein;
+}
+.p1{
+	width: 100%;
+	background-color: #ff8383;
+}
+
+
+section .container h1{
+	padding: 20px 20px;
+	font-size: 30px;
+}
+
+footer .col-2-1{
+	padding: 30px 100px;
+}
+
+footer .container
+{
+  width: 100% ;
+  background-color:#00ffa7a6 ;
+	
+}
+.menu
+{   width: 60%; 
+	padding:30px;
+    flex: 0 0 auto;}
+
+.social
+{   
+		width: 40%;
+    flex: 0 0 auto;
+    justify-content:flex-end;
+}
+.social li{
+	
+}
+.social li a{
+	display: block;
+    color:#232323 ;
+    font-size:16px;
+    text-decoration:none;
+    padding-right:30px; 
+    font-weight: 600;
+}
+
+.social li a.f:hover{
+	transform: scale(1.1);
+	color:#113cc5e0;
+}
+
+.social li a.t:hover{
+	color: #03a9f4;
+		transform: scale(1.1);
+}
+.social li a.i:hover{
+		transform: scale(1.1);
+	color: #c5005fdb;
+}
+.social span
+{ font-size: 22px;
+  display: inline-block;
+  padding: 30px 30px;
+}
+
+
+.menu {
+ 
+	padding-left: 50px;
+}
+
+.menu li{
+	list-style: none;
+	padding-left: 50px; 
+}
+.menu li  a{ 
+	display: block;
+    color:#232323 ;
+    font-size:16px;
+    text-decoration:none;
+    padding-left: 30px; 
+    font-weight: 600;
+}
