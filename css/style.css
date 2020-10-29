@@ -6,14 +6,16 @@
 
 body{
 	font-family: 'Fjalla One', sans-serif;
-
-
+    background: #4b4dce;
+    color: #fff;
+    
 
 }
 
 header{
-	background-color:#00ffa7a6;
+	background-color:#54f3d2;
 	padding: 20px 0;
+	
 
 }
 p{
@@ -49,8 +51,15 @@ a{
 	
     flex: 0 0 auto;
    }
+   .logo:hover{ 
+	transform: scale(1.2);
+	
+    flex: 0 0 auto;
+   }
 
-
+.justifycontent-center{
+	justify-content: center;
+}
 
 .flex{
     display: flex;
@@ -70,7 +79,7 @@ nav ul{
 }
 
 nav ul li a{
-    color: #333;
+    
     font-weight: 600;
     font-size: 20px;
     text-decoration:none;
@@ -78,6 +87,7 @@ nav ul li a{
     display:block;
 }
 nav ul li a:hover{
+	transform: scale(1.1);
  color:white;
  background-color: #5816cc;
 }
@@ -85,15 +95,17 @@ nav ul li a:hover{
 
 .col
 {   
-	width: 33%;
-	
+	width: 25%;
+	height: 400px;
+	 object-fit: cover;
+	 object-position: top;
 	padding:30px;
 }
 
 .col img{
 	box-shadow: -30px 30px 20px #0e0e0e6e;
-	transition-delay: 5s;
-
+	
+   
 
 }
 
@@ -127,7 +139,7 @@ nav ul li a:hover{
 
 section
 {   margin: auto;
-	transition: slidein;
+	transition:;
 }
 .p1{
 	width: 100%;
@@ -139,6 +151,11 @@ section .container h1{
 	padding: 20px 20px;
 	font-size: 30px;
 }
+ 
+ footer{
+ 	background-color:#54f3d2 ;
+  
+ }
 
 footer .col-2-1{
 	padding: 30px 100px;
@@ -147,7 +164,8 @@ footer .col-2-1{
 footer .container
 {
   width: 100% ;
-  background-color:#00ffa7a6 ;
+  background-color:#54f3d2 ;
+
 	
 }
 .menu
@@ -188,6 +206,8 @@ footer .container
 }
 .social span
 { font-size: 22px;
+	font-weight: 500px;
+	color: #333;
   display: inline-block;
   padding: 30px 30px;
 }
@@ -210,3 +230,65 @@ footer .container
     padding-left: 30px; 
     font-weight: 600;
 }
+
+//*signup form*//
+
+ .signup-form
+ {
+ 	box-sizing: border-box;
+ }
+.signup{
+	
+	width: 35%;
+	flex: 0 0 auto;
+	padding: 50px;
+	color: #fff;
+	border-radius:30px;
+background: #4648dd;
+box-shadow:  31px 31px 62px #2b2c87, 
+             -31px -31px 62px #6164ff;
+}
+
+.signup:hover{
+
+background: #4648dd;
+box-shadow:  -31px -31px 62px #2b2c87, 
+             31px 31px 62px #6164ff;
+}
+
+form input, form textarea{
+	width: 100%;
+    border-radius:15px;
+	padding: 6px 15px;
+	border: 2px solid #fff;
+	background-color: #f0f8ff00;
+	color: #fff;
+	line-height: 1.5;
+
+}
+
+form input[type="radio"],
+form input[type="checkbox"]
+{
+	width: auto;
+	
+}
+
+form strong{
+	display: block;
+	font-size: 22px;
+	font-weight:500px;
+	margin: 20px 0 10px;
+}
+form label{
+	font-size: 18px;
+	margin-right: 15px;
+}
+
+form input[type="submit"]
+{
+	float: left;
+	width: auto;
+}
+
+//*signup form*//
